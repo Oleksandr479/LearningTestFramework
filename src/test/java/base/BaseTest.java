@@ -67,4 +67,9 @@ public class BaseTest {
 	{
 		System.out.println("testing");
 	}
+	
+	public void te1stingPross() 
+	{
+		System.out.println("testing");
+	}
 }
