@@ -13,6 +13,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -61,5 +62,9 @@ public class BaseTest {
 		driver.close();
 		System.out.println("Tear down process was seccessful");
 	}
-
+	@Test
+	public void testingPross() 
+	{
+		System.out.println("testing");
+	}
 }
