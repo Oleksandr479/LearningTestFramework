@@ -72,4 +72,8 @@ public class BaseTest {
 	{
 		System.out.println("testing");
 	}
+	public void tesst() 
+	{
+		System.err.println("dgfsia");
+	}
 }
